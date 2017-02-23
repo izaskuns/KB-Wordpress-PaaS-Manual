@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: KB-Wordpress-PaaS-Manual
+  host: KB-Wordpress-PaaS-Manual
+  disk_quota: 1024M
+  services:
+  - myObjectStorage
+  - KB-Wordpress-PaaS-Manual-CDBMySQL
